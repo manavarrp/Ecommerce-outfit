@@ -1,6 +1,4 @@
 
-import React from 'react'
-import ProductPage from '../product/page';
 
 const ProductsPage = () => {
   return (
