@@ -10,7 +10,7 @@ import { IoCartOutline, IoSearchOutline } from "react-icons/io5";
 export const TopMenu = () => {
   const [loaded, setLoaded] = useState(false);
 
-  const openSidebar = useUIStore((state) => state.openSidebar);
+  const openSidebar = useUIStore((state) => state.isSideMenuOpen  );
 
   const getTotalItemsInCart = useCartStore((state) => state.getTotalItems());
 
