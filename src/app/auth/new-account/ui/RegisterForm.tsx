@@ -19,6 +19,7 @@ const RegisterForm = () => {
     handleSubmit,
     formState: { errors },
   } = useForm<FormInputs>();
+  
   const [messageError, setMessageError] = useState("");
 
 
